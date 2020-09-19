@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    padding: 76px 0 0 0;
+}
+
+.container {
+    max-width: 1170px;
+    widows: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    z-index: 1000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.title{
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 50px;
+    color: #313131;
+    position: relative;
+}
+
+.text{
+    font-size: 18px;
+    color: #616161;
+    position: relative;
+}
